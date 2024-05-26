@@ -101,9 +101,9 @@ const Navbar = () => {
                   onMouseEnter={() => setMenuOpen({ ...menuOpen, ftik: true })}
                   onMouseLeave={() => setMenuOpen({ ...menuOpen, ftik: false })}
                 >
-                  <Link href="">
+                  <Link href="/Prodi_TI">
                     <span className="block py-2 px-4 cursor-pointer text-white">
-                      Information Engineering
+                      Teknik Informatika
                     </span>
                   </Link>
                   {/* {menuOpen.ftik && (
@@ -134,14 +134,14 @@ const Navbar = () => {
                 </li>
 
                 <li className="w-full border-t border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                  <Link href="">
+                  <Link href="/Prodi_SI">
                     <span className="block py-2 px-4 cursor-pointer text-white">
-                      Information System
+                      Sistem Informasi
                     </span>
                   </Link>
                 </li>
                 <li className="w-full border-t border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                  <Link href="">
+                  <Link href="/Prodi_Film">
                     <span className="block py-2 px-4 cursor-pointer text-white">
                       Film, Television & Media Studies
                     </span>

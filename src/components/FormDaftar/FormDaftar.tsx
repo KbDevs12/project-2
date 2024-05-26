@@ -7,6 +7,11 @@ export default function FormDaftar() {
   const [email, setEmail] = useState("");
   const [pesan, setPesan] = useState("");
 
+  function handleSubmit() {
+    const mailtoLink = `mailto:${email}?subject=Pesan dari ${nama}&body=${pesan}`;
+    window.location.href = mailtoLink;
+  }
+
   return (
     <>
       <form className="relative max-w-64 md:max-w-md mx-auto bg-white shadow-2xl -translate-y-1 shadow-gray-500 rounded px-8 pt-6 pb-8 mb-4">
@@ -61,6 +66,7 @@ export default function FormDaftar() {
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
+            onClick={handleSubmit}
           >
             Kirim
           </button>

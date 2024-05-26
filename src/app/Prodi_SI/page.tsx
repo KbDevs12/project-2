@@ -27,10 +27,10 @@ export default function Page() {
         <div className="mb-10" data-aos="fade-up">
           <h3 className="text-2xl font-bold mb-2">Visi :</h3>
           <p className="text-lg leading-relaxed">
-            Menjadi fakultas terdepan dalam bidang sistem informatika yang mampu
-            menghasilkan lulusan berkualitas, berintegritas, dan berdaya saing
-            global, serta berkontribusi dalam pengembangan ilmu pengetahuan dan
-            teknologi.
+            Menjadi program studi unggulan di bidang Sistem Informasi yang mampu
+            menghasilkan lulusan yang profesional, inovatif, dan kompeten dalam
+            memanfaatkan teknologi informasi untuk mendukung kebutuhan bisnis
+            dan organisasi, serta berdaya saing global.
           </p>
         </div>
         <div className="mb-10" data-aos="fade-up">
@@ -67,7 +67,7 @@ export default function Page() {
           <ol className="space-y-6">
             <li data-aos="fade-up">
               <h4 className="text-xl font-semibold py-2">
-                Accounting Information System :
+                Accounting Information System (AIS):
               </h4>
               <p className="text-lg leading-relaxed">
                 Konsentrasi Accounting Information System (AIS) adalah bidang
@@ -97,7 +97,7 @@ export default function Page() {
             </li>
             <li data-aos="fade-up">
               <h4 className="text-xl font-semibold py-2">
-                Management Information System :
+                Management Information System (MIS) :
               </h4>
               <p className="text-lg leading-relaxed">
                 Konsentrasi Management Information System (MIS) adalah bidang
@@ -130,7 +130,7 @@ export default function Page() {
             </li>
             <li data-aos="fade-up">
               <h4 className="text-xl font-semibold py-2">
-                Logistic & Production Information System :
+                Logistic & Production Information System (LPIS):
               </h4>
               <p className="text-lg leading-relaxed">
                 Konsentrasi Logistic & Production Information System (LPIS)

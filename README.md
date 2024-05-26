@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+````markdown:README.md
+# Website Fakultas Teknik Informatika
 
-## Getting Started
+Selamat datang di repositori proyek website Fakultas Teknik Informatika. Proyek ini bertujuan untuk membuat sebuah website yang informatif dan menarik untuk fakultas, menampilkan berbagai keunggulan, program studi, dan fasilitas yang tersedia.
 
-First, run the development server:
+## Memulai
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Untuk memulai proyek ini, ikuti langkah-langkah berikut:
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/KbDevs12/project-2.git
+   cd project-2
+````
+
+2. Instal dependensi:
+
+   ```bash
+   npm install
+   # atau
+   yarn install
+   # atau
+   pnpm install
+   ```
+
+3. Jalankan server pengembangan:
+
+   ```bash
+   npm run dev
+   # atau
+   yarn dev
+   # atau
+   pnpm dev
+   ```
+
+4. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+Anda dapat mulai mengedit halaman dengan memodifikasi `src/app/page.tsx`. Halaman akan otomatis diperbarui saat Anda mengedit file.
+
+## Fitur
+
+- **Parallax Scrolling**: Menampilkan gambar latar belakang yang menarik dengan efek parallax.
+- **Responsive Design**: Tata letak yang responsif untuk berbagai ukuran layar.
+- **Informasi Program Studi**: Menampilkan informasi detail tentang program studi yang ditawarkan.
+- **Keunggulan Kampus**: Menyoroti keunggulan dan fasilitas kampus.
+
+## Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/): Framework React untuk pengembangan aplikasi web.
+- [Tailwind CSS](https://tailwindcss.com/): Framework CSS untuk styling yang cepat dan responsif.
+- [Embla Carousel](https://www.embla-carousel.com/): Komponen carousel yang ringan dan dapat disesuaikan.
+
+## Pelajari Lebih Lanjut
+
+Untuk mempelajari lebih lanjut tentang Next.js, lihat sumber daya berikut:
+
+- [Dokumentasi Next.js](https://nextjs.org/docs) - Pelajari tentang fitur dan API Next.js.
+- [Belajar Next.js](https://nextjs.org/learn) - Tutorial interaktif Next.js.
+
+Anda juga dapat melihat [repositori GitHub Next.js](https://github.com/vercel/next.js/) - masukan dan kontribusi Anda sangat dihargai!
+
+## Deploy di Vercel
+
+Cara termudah untuk mendeply aplikasi Next.js Anda adalah dengan menggunakan [Platform Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dari pembuat Next.js.
+
+Lihat [dokumentasi deployment Next.js](https://nextjs.org/docs/deployment) untuk detail lebih lanjut.
+
+## Kontribusi
+
+Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan Anda.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [GNU General Public License](LICENSE).
+
+Terima kasih telah mengunjungi dan semoga proyek ini bermanfaat!
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```

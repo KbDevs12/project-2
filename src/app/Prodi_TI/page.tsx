@@ -1,12 +1,22 @@
 export default function Page() {
   return (
     <>
+      <div
+        className="parallax"
+        style={{
+          backgroundImage:
+            "url('https://source.unsplash.com/random/800x600?tecnology')",
+        }}
+      >
+        <div className="overlay">
+          <h1 className="text-white text-4xl font-bold" id="project">
+            Program Studi Teknik Informatika
+          </h1>
+        </div>
+      </div>
       <div className="profile-fakultas mt-20 px-4">
-        <h2 className="text-4xl font-bold mb-5" id="project">
-          Profil Fakultas Teknik Informatika
-        </h2>
-        <h2 className="text-2xl font-bold mb-1">Visi Dan Misi</h2>
-        <h2 className="text-2xl font-bold mb-1">Visi :</h2>
+        <h2 className="text-2xl font-bold mb-2">Visi Dan Misi</h2>
+        <h2 className="text-2xl font-bold mb-2">Visi :</h2>
         <p className="text-lg mb-10">
           Menjadi fakultas unggul dalam pendidikan, penelitian, dan pengabdian
           masyarakat di bidang Teknik Informatika, yang mampu menghasilkan
@@ -35,7 +45,7 @@ export default function Page() {
           pendidikan lain baik di dalam maupun luar negeri untuk meningkatkan
           kualitas pendidikan, penelitian, dan pengabdian masyarakat.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-4 gap-4 pb-8">
           <img
             src="https://source.unsplash.com/random/800x600?technology"
             alt="Gambar FTI 1"

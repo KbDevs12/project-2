@@ -1,10 +1,20 @@
 export default function Page() {
   return (
     <>
+      <div
+        className="parallax"
+        style={{
+          backgroundImage:
+            "url('https://source.unsplash.com/random/800x600?film')",
+        }}
+      >
+        <div className="overlay">
+          <h1 className="text-white text-4xl font-bold" id="project">
+            Program Studi Film, TV & Media
+          </h1>
+        </div>
+      </div>
       <div className="profile-fakultas mt-20 px-4">
-        <h2 className="text-4xl font-bold mb-5" id="project">
-          Profil Fakultas Film, TV dan Media
-        </h2>
         <h2 className="text-2xl font-bold mb-1">Visi Dan Misi</h2>
         <h2 className="text-2xl font-bold mb-1">Visi :</h2>
         <p className="text-lg mb-10">
@@ -48,22 +58,22 @@ export default function Page() {
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://source.unsplash.com/random/800x602?technology"
+            src="https://source.unsplash.com/random/800x602?film"
             alt="Gambar FTI 3"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://source.unsplash.com/random/800x603?technology"
+            src="https://source.unsplash.com/random/800x603?film"
             alt="Gambar FTI 4"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://source.unsplash.com/random/800x604?technology"
+            src="https://source.unsplash.com/random/800x604?film"
             alt="Gambar FTI 5"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://source.unsplash.com/random/800x605?technology"
+            src="https://source.unsplash.com/random/800x605?film"
             alt="Gambar FTI 6"
             className="w-full h-auto rounded-lg"
           />

@@ -1,10 +1,20 @@
 export default function Page() {
   return (
     <>
+      <div
+        className="parallax"
+        style={{
+          backgroundImage:
+            "url('https://source.unsplash.com/random/800x600?tecnology')",
+        }}
+      >
+        <div className="overlay">
+          <h1 className="text-white text-4xl font-bold" id="project">
+            Program Studi Sistem Informasi
+          </h1>
+        </div>
+      </div>
       <div className="profile-fakultas mt-20 px-4">
-        <h2 className="text-4xl font-bold mb-5" id="project">
-          Profil Fakultas Sistem Informatika
-        </h2>
         <h2 className="text-2xl font-bold mb-1">Visi Dan Misi</h2>
         <h2 className="text-2xl font-bold mb-1">Visi :</h2>
         <p className="text-lg mb-10">

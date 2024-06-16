@@ -1,5 +1,3 @@
-import EmblaCarousel from "@/components/Carousel/Embla";
-import FormDaftar from "@/components/FormDaftar/FormDaftar";
 import StudyTime from "@/components/StudyTime/Studytime";
 import Waves from "@/components/Waves/Waves";
 import {

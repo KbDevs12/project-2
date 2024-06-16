@@ -2,81 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-.embla {
-  max-width: 48rem;
-  margin: auto;
-  --slide-height: 400px;
-  --slide-spacing: 1rem;
-  --slide-size: 70%;
+
+/* EmblaCarousel.module.css */
+
+.hexagonWrapper {
+  display: flex;
+  align-items: center;
 }
 
-.embla__viewport {
-  overflow: hidden;
+.hexagon {
   position: relative;
+  width: 150px; /* Adjust size to match Image height and width */
+  height: 86.60px; /* Height calculated for hexagon shape */
+  background-color: #ddd; /* Background color of hexagon */
+  margin-right: 20px; /* Adjust margin as needed */
 }
+
+.hexagonInner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon Image {
+  width: 100%;
+  height: auto;
+}
+
+.embla {
+  overflow: hidden;
+}
+
 .embla__container {
   display: flex;
 }
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-  padding-left: var(--slide-spacing);
-  position: relative;
-}
-
-.embla__slide__img {
-  border-radius: 1.8rem;
-  display: block;
-  height: var(--slide-height);
-  width: 70%;
-  margin: 0 auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .embla__slide {
-  transition: opacity 0.2s ease-in-out;
+  min-width: 100%;
+  padding: 10px;
 }
-.embla__slide:not(.is-snapped) {
-  opacity: 0.16;
-}
-
-.embla__slide--next,
-.embla__slide--prev {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  opacity: 0.5;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.embla__slide--next {
-  right: -50%;
-}
-
-.embla__slide--prev {
-  left: -50%;
-}
-
-.slides {
-  flex: 0 0 var(--slide-size);
-  min-width: 0;
-  padding-left: var(--slide-spacing);
-  transition: opacity 0.5s ease-in-out;
-}
-
-.slides:not(.is-snapped) {
-  opacity: 0.10;
-  transform: scale(0.8);
-}
-
-.slides__inner {
-  height: var(--slide-height);
-}
-
 .parallax {
   height: 400px;
   background-attachment: fixed;

@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
 import { CaretLeft } from "@phosphor-icons/react";
-
+import Image from "next/image";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState({
     profile: false,
@@ -41,13 +41,15 @@ const Navbar = () => {
       } fixed top-0 left-0 right-0 shadow-md py-4 md:py-0 px-4 flex items-center justify-between z-50 transition-colors duration-300`}
     >
       <Link href="/">
-        <span
-          className={`${
-            isScrolled ? "text-white" : "text-black"
-          } font-bold text-2xl cursor-pointer`}
-        >
-          logo
-        </span>
+        <Image
+          src={
+            "https://global.ac.id/wp-content/uploads/2022/11/logo-header-global-institute-3.png"
+          }
+          alt="logo"
+          className="md:w-56"
+          width={300}
+          height={300}
+        />
       </Link>
 
       {/* menu untuk hp */}
@@ -151,7 +153,7 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <Link href="">
+            <Link href="/struktur">
               <span
                 className={` ${
                   isScrolled ? "text-white" : "text-black"
@@ -168,23 +170,30 @@ const Navbar = () => {
           >
             <Link href="">
               <span
-                className={`text-lg py-5 px-4 block hover:bg-gray-500 hover:text-white transition-all duration-300 cursor-pointer ${
+                className={`flex gap-2 text-lg py-5 px-4 hover:bg-gray-500 hover:text-white transition-all duration-300 cursor-pointer ${
                   isScrolled ? "text-white" : "text-black"
                 }`}
               >
                 Akademik
+                <CaretLeft
+                  size={32}
+                  color={`${isScrolled ? "#ededed" : "#000000"}`}
+                  className={`${
+                    menuOpen.akademik ? "-rotate-90" : "rotate-00"
+                  } transition-all duration-300`}
+                />
               </span>
             </Link>
             {menuOpen.akademik && (
               <ul className="absolute left-0 w-48 bg-indigo-950">
-                <li className="w-full border-t border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
+                <li className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
                   <Link href="">
                     <span className="block py-2 px-4 cursor-pointer">
                       Kurikulum
                     </span>
                   </Link>
                 </li>
-                <li className="w-full border-t border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
+                <li className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
                   <Link href="">
                     <span className="block py-2 px-4 cursor-pointer">
                       Panduan Akademik
@@ -250,21 +259,21 @@ const Navbar = () => {
               } overflow-hidden`}
             >
               <li className="w-full border-t border-gray-200">
-                <Link href="">
+                <Link href="/Prodi_TI">
                   <span className="block py-2 px-4 cursor-pointer">
                     Information Engineering
                   </span>
                 </Link>
               </li>
               <li className="w-full border-t border-gray-200">
-                <Link href="">
+                <Link href="/Prodi_SI">
                   <span className="block py-2 px-4 cursor-pointer">
                     Information System
                   </span>
                 </Link>
               </li>
               <li className="w-full border-y border-gray-200">
-                <Link href="">
+                <Link href="Prodi_Film">
                   <span className="block py-2 px-4 cursor-pointer">
                     Film, Television & Media Studies
                   </span>
@@ -273,7 +282,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <Link href="">
+            <Link href="/struktur">
               <span className="text-lg py-2 px-4 text-white block hover:bg-gray-500 hover:text-white transition-all duration-500 cursor-pointer">
                 Struktur Organisasi
               </span>
@@ -285,11 +294,18 @@ const Navbar = () => {
               setMenuOpen({ ...menuOpen, akademik: !menuOpen.akademik })
             }
           >
-            <span className="text-lg py-2 px-4 text-white block hover:bg-gray-500 hover:text-white transition-all duration-500 cursor-pointer">
+            <span className="flex justify-between text-lg py-2 px-4 text-white hover:bg-gray-500 hover:text-white transition-all duration-500 cursor-pointer">
               Akademik
+              <CaretLeft
+                size={32}
+                color="#ededed"
+                className={`${
+                  menuOpen.akademik ? "-rotate-90" : "rotate-00"
+                } transition-all duration-300`}
+              />
             </span>
             <ul
-              className={`ml-4 transition-all duration-500 ${
+              className={`ml-4 transition-all duration-500 text-white  ${
                 menuOpen.akademik ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
               } overflow-hidden`}
             >

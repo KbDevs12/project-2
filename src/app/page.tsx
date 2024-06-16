@@ -1,4 +1,6 @@
+import EmblaCarousel from "@/components/Carousel/Embla";
 import FormDaftar from "@/components/FormDaftar/FormDaftar";
+import StudyTime from "@/components/StudyTime/Studytime";
 import Waves from "@/components/Waves/Waves";
 import {
   Bookmarks,
@@ -15,7 +17,7 @@ export default function Home() {
             className="parallax"
             style={{
               backgroundImage:
-                "url('https://source.unsplash.com/random/800x600?campus')",
+                "url('https://i0.wp.com/global.ac.id/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-03-at-14.59.03.jpeg?fit=1600%2C800&ssl=1)",
             }}
           >
             <div className="overlay">
@@ -93,7 +95,7 @@ export default function Home() {
                 data-aos-delay="50"
               >
                 <img
-                  src="https://source.unsplash.com/random/800x600?campus"
+                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Teknik Informatika"
                   className="w-full h-auto rounded-lg"
                 />
@@ -125,7 +127,7 @@ export default function Home() {
                 data-aos-delay="50"
               >
                 <img
-                  src="https://source.unsplash.com/random/800x601?campus"
+                  src="https://plus.unsplash.com/premium_photo-1689700527718-257b67a4abd0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Sistem Informasi"
                   className="w-full h-auto rounded-lg"
                 />
@@ -157,7 +159,7 @@ export default function Home() {
                 data-aos-delay="50"
               >
                 <img
-                  src="https://source.unsplash.com/random/800x602?campus"
+                  src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Film, TV & Media"
                   className="w-full h-auto rounded-lg"
                 />
@@ -186,11 +188,14 @@ export default function Home() {
         <div className="relative -bottom-1">
           <Waves />
         </div>
-        <div className="text-center bg-blue-900 pt-0 pb-8 px-0">
-          <h3 className="text-xl text-white font-bold mb-4">
-            Ingin daftar? Kirim email kesini ya!
-          </h3>
-          <FormDaftar />
+        <div className=" bg-blue-900 pt-0 pb-8 px-0">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="50"
+          >
+            <StudyTime />
+          </div>
         </div>
       </div>
     </>

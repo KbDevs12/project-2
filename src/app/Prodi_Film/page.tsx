@@ -5,7 +5,7 @@ export default function Page() {
         className="parallax"
         style={{
           backgroundImage:
-            "url('https://source.unsplash.com/random/800x600?film')",
+            "url('https://i0.wp.com/global.ac.id/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-03-at-14.59.03.jpeg?fit=1600%2C800&ssl=1')",
         }}
       >
         <div className="overlay" data-aos="fade-in">
@@ -148,37 +148,25 @@ export default function Page() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
           <img
-            src="https://source.unsplash.com/random/800x600?film"
+            src="https://images.pexels.com/photos/1579251/pexels-photo-1579251.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
             alt="Gambar FTI 1"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-right"
           />
           <img
-            src="https://source.unsplash.com/random/800x601?film"
+            src="https://images.pexels.com/photos/164906/pexels-photo-164906.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
             alt="Gambar FTI 2"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up"
           />
           <img
-            src="https://source.unsplash.com/random/800x602?film"
+            src="https://images.pexels.com/photos/256250/pexels-photo-256250.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
             alt="Gambar FTI 3"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-left"
           />
           <img
-            src="https://source.unsplash.com/random/800x603?film"
-            alt="Gambar FTI 4"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-right"
-          />
-          <img
-            src="https://source.unsplash.com/random/800x604?film"
-            alt="Gambar FTI 5"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up"
-          />
-          <img
-            src="https://source.unsplash.com/random/800x605?film"
+            src="https://images.pexels.com/photos/768218/pexels-photo-768218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
             alt="Gambar FTI 6"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-left"

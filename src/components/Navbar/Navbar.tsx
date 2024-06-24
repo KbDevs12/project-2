@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
 import { CaretLeft } from "@phosphor-icons/react";
 import Image from "next/image";
+import jsPDF from "jspdf";
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState({
     profile: false,
@@ -32,6 +34,13 @@ const Navbar = () => {
 
   const toggleNavMenu = () => {
     setMenuOpen({ ...menuOpen, navOpen: !menuOpen.navOpen });
+  };
+
+  const generatePDF = (title: string) => {
+    const doc = new jsPDF();
+    doc.text(title, 10, 10);
+    doc.text("This is an auto-generated PDF with random text.", 10, 20);
+    doc.save(`${title}.pdf`);
   };
 
   return (
@@ -108,33 +117,7 @@ const Navbar = () => {
                       Teknik Informatika
                     </span>
                   </Link>
-                  {/* {menuOpen.ftik && (
-                    <ul className="absolute -right-48 -top-0 w-48 bg-indigo-950 text-white">
-                      <li className="w-full border-y border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                        <Link href={"/information-engineering"}>
-                          <span className="block py-2 px-4 cursor-pointer text-white">
-                            Information Engineering
-                          </span>
-                        </Link>
-                      </li>
-                      <li className="w-full border-b border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                        <Link href={""}>
-                          <span className="block py-2 px-4 cursor-pointer text-white">
-                            Information System
-                          </span>
-                        </Link>
-                      </li>
-                      <li className="w-full border-b border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                        <Link href={""}>
-                          <span className="block py-2 px-4 cursor-pointer text-white">
-                            Film, Television & Media Studies
-                          </span>
-                        </Link>
-                      </li>
-                    </ul>
-                  )} */}
                 </li>
-
                 <li className="w-full border-t border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
                   <Link href="/Prodi_SI">
                     <span className="block py-2 px-4 cursor-pointer text-white">
@@ -186,19 +169,21 @@ const Navbar = () => {
             </Link>
             {menuOpen.akademik && (
               <ul className="absolute left-0 w-48 bg-indigo-950">
-                <li className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                  <Link href="">
-                    <span className="block py-2 px-4 cursor-pointer">
-                      Kurikulum
-                    </span>
-                  </Link>
+                <li
+                  className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300"
+                  onClick={() => generatePDF("Kurikulum")}
+                >
+                  <span className="block py-2 px-4 cursor-pointer">
+                    Kurikulum
+                  </span>
                 </li>
-                <li className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300">
-                  <Link href="">
-                    <span className="block py-2 px-4 cursor-pointer">
-                      Panduan Akademik
-                    </span>
-                  </Link>
+                <li
+                  className="w-full border-t text-white border-gray-200 hover:bg-gray-500 hover:text-white transition-all duration-300"
+                  onClick={() => generatePDF("Panduan Akademik")}
+                >
+                  <span className="block py-2 px-4 cursor-pointer">
+                    Panduan Akademik
+                  </span>
                 </li>
               </ul>
             )}
@@ -309,19 +294,21 @@ const Navbar = () => {
                 menuOpen.akademik ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
               } overflow-hidden`}
             >
-              <li className="w-full border-t border-gray-200">
-                <Link href="">
-                  <span className="block py-2 px-4 cursor-pointer">
-                    Kurikulum
-                  </span>
-                </Link>
+              <li
+                className="w-full border-t border-gray-200"
+                onClick={() => generatePDF("Kurikulum")}
+              >
+                <span className="block py-2 px-4 cursor-pointer">
+                  Kurikulum
+                </span>
               </li>
-              <li className="w-full border-t border-gray-200">
-                <Link href="">
-                  <span className="block py-2 px-4 cursor-pointer">
-                    Panduan Akademik
-                  </span>
-                </Link>
+              <li
+                className="w-full border-t border-gray-200"
+                onClick={() => generatePDF("Panduan Akademik")}
+              >
+                <span className="block py-2 px-4 cursor-pointer">
+                  Panduan Akademik
+                </span>
               </li>
             </ul>
           </li>

@@ -1,4 +1,4 @@
-````markdown:README.md
+
 # Website Fakultas Teknik Informatika
 
 Selamat datang di repositori proyek website Fakultas Teknik Informatika. Proyek ini bertujuan untuk membuat sebuah website yang informatif dan menarik untuk fakultas, menampilkan berbagai keunggulan, program studi, dan fasilitas yang tersedia.

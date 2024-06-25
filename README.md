@@ -11,7 +11,6 @@ Untuk memulai proyek ini, ikuti langkah-langkah berikut:
    ```bash
    git clone https://github.com/KbDevs12/project-2.git
    cd project-2
-````
 
 2. Instal dependensi:
 
@@ -74,7 +73,3 @@ Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silaka
 Proyek ini dilisensikan di bawah [GNU General Public License](LICENSE).
 
 Terima kasih telah mengunjungi dan semoga proyek ini bermanfaat!
-
-```
-
-```

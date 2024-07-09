@@ -186,7 +186,7 @@ export default function Home() {
         <div className="relative -bottom-1">
           <Waves />
         </div>
-        <div className=" bg-blue-900 pt-0 pb-8 px-0">
+        <div className=" bg-blue-900 pt-0 pb-28 px-0">
           <div
             data-aos="fade-right"
             data-aos-easing="ease-in-out"

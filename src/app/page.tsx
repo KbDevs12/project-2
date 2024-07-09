@@ -19,7 +19,7 @@ export default function Home() {
             }}
           >
             <div className="overlay">
-              <h1 className="text-white text-4xl font-bold" id="project">
+              <h1 className="text-white text-4xl font-bold px-4" id="project">
                 Fakultas Teknologi Informasi Dan Komunikasi
               </h1>
             </div>

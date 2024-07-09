@@ -55,7 +55,7 @@ const Navbar = () => {
             "https://global.ac.id/wp-content/uploads/2022/11/logo-header-global-institute-3.png"
           }
           alt="logo"
-          className="md:w-56"
+          className="md:w-56 w-24"
           width={300}
           height={300}
         />

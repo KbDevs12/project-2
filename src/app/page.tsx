@@ -117,7 +117,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center sm:items-start overflow-y-hidden">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start overflow-y-hidden overflow-x-hidden">
               <div
                 className="sm:order-1 sm:mr-4"
                 data-aos="zoom-in-left"

@@ -5,7 +5,7 @@ export default function Page() {
         className="parallax"
         style={{
           backgroundImage:
-            "url('https://source.unsplash.com/random/800x600?technology')",
+            "url('https://i0.wp.com/global.ac.id/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-03-at-14.59.03.jpeg?fit=1600%2C800&ssl=1)",
         }}
       >
         <div className="overlay" data-aos="fade-in">
@@ -226,37 +226,37 @@ export default function Page() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
           <img
-            src="https://source.unsplash.com/random/800x600?technology"
+            src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 1"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-right"
           />
           <img
-            src="https://source.unsplash.com/random/800x601?technology"
+            src="https://plus.unsplash.com/premium_photo-1678567671952-4028b2ec6c71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 2"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up"
           />
           <img
-            src="https://source.unsplash.com/random/800x602?technology"
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 3"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-left"
           />
           <img
-            src="https://source.unsplash.com/random/800x603?technology"
+            src="https://plus.unsplash.com/premium_photo-1679923813998-6603ee2466c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 4"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-right"
           />
           <img
-            src="https://source.unsplash.com/random/800x604?technology"
+            src="https://plus.unsplash.com/premium_photo-1679920897222-3c9e713bde36?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 5"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up"
           />
           <img
-            src="https://source.unsplash.com/random/800x605?technology"
+            src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gambar FTI 6"
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
             data-aos="fade-up-left"

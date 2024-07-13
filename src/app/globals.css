@@ -2,32 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* EmblaCarousel.module.css */
-
-.hexagonWrapper {
-  display: flex;
-  align-items: center;
-}
-
-.hexagon {
-  position: relative;
-  width: 150px; /* Adjust size to match Image height and width */
-  height: 86.60px; /* Height calculated for hexagon shape */
-  background-color: #ddd; /* Background color of hexagon */
-  margin-right: 20px; /* Adjust margin as needed */
-}
-
-.hexagonInner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-
-.hexagon Image {
-  width: 100%;
-  height: auto;
+:root {
+  --primary: #f0f4ef;
+  --secondary: #344966;
+  --tertiary: #b4cded;
 }
 
 .embla {
@@ -56,4 +34,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
 }

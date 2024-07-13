@@ -25,12 +25,9 @@ export default function StudyTime() {
 
   return (
     <>
-      <h2 className="text-3xl text-blue-900 font-semibold">
+      <h2 className="text-3xl text-white p-4 font-semibold">
         Study Time / Waktu Kuliah
       </h2>
-      <button className="mt-4 mb-8 text-white py-2 px-4 rounded font-semibold text-2xl text-left">
-        Kalender Akademik
-      </button>
       <div className="flex gap-4 px-4">
         <div className="flex flex-col w-1/2 space-y-4">
           <button

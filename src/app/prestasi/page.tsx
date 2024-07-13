@@ -1,3 +1,10 @@
+import {
+  Globe,
+  Trophy,
+  Camera,
+  Basketball,
+} from "@phosphor-icons/react/dist/ssr";
+
 export default function PrestasiPage() {
   return (
     <>
@@ -26,11 +33,9 @@ export default function PrestasiPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 my-8">
             <div className="prestasi-item p-4 bg-white rounded-lg shadow-lg">
-              <img
-                src="https://media.istockphoto.com/id/1488521147/photo/global-network-usa-united-states-of-america-north-america-global-business-flight-routes.webp?b=1&s=170667a&w=0&k=20&c=RLF6E5QQzTwFnxTww_9CjkfL6vlLwKJbS-H4Olan9l0="
-                alt="Penghargaan 1"
-                className="w-full h-auto rounded-lg mb-4"
-              />
+              <div className="flex justify-center">
+                <Trophy size={150} color="#030303" weight="duotone" />
+              </div>
               <h3 className="text-xl font-semibold">
                 Diploma, World Orienteering Day
               </h3>
@@ -42,11 +47,9 @@ export default function PrestasiPage() {
               </p>
             </div>
             <div className="prestasi-item p-4 bg-white rounded-lg shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8fDA%3D"
-                alt="Penghargaan 2"
-                className="w-full h-auto rounded-lg mb-4"
-              />
+              <div className="flex justify-center">
+                <Camera size={150} color="#030303" weight="duotone" />
+              </div>
               <h3 className="text-xl font-semibold">
                 Juara 1 Lomba Fotografi, Tingkat Provinsi Banten
               </h3>
@@ -57,11 +60,9 @@ export default function PrestasiPage() {
               </p>
             </div>
             <div className="prestasi-item p-4 bg-white rounded-lg shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Penghargaan 3"
-                className="w-full h-auto rounded-lg mb-4"
-              />
+              <div className="flex justify-center">
+                <Globe size={150} color="#030303" weight="duotone" />
+              </div>
               <h3 className="text-xl font-semibold">
                 Juara 2 Web Design Tingkat Kota Tangerang
               </h3>
@@ -72,11 +73,9 @@ export default function PrestasiPage() {
               </p>
             </div>
             <div className="prestasi-item p-4 bg-white rounded-lg shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnR8ZW58MHx8MHx8fDA%3D"
-                alt="Penghargaan 4"
-                className="w-full h-auto rounded-lg mb-4"
-              />
+              <div className="flex justify-center">
+                <Basketball size={150} color="#030303" weight="duotone" />
+              </div>
               <h3 className="text-xl font-semibold">
                 Juara 2 PORDA (Pekan Olahraga Mahasiswa)
               </h3>

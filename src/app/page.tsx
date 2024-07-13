@@ -5,6 +5,7 @@ import {
   Globe,
   GraduationCap,
 } from "@phosphor-icons/react/dist/ssr";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -92,8 +93,10 @@ export default function Home() {
                 data-aos-easing="ease-in-out"
                 data-aos-delay="50"
               >
-                <img
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <Image
+                  width={500}
+                  height={300}
+                  src="https://i0.wp.com/global.ac.id/wp-content/uploads/2024/03/3c7dcfa0-1954-46cb-a1bc-790c573f56b7.jpeg?w=1024&ssl=1"
                   alt="Teknik Informatika"
                   className="w-full h-auto rounded-lg"
                 />
@@ -124,10 +127,12 @@ export default function Home() {
                 data-aos-easing="ease-in-out"
                 data-aos-delay="50"
               >
-                <img
-                  src="https://plus.unsplash.com/premium_photo-1689700527718-257b67a4abd0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <Image
+                  src="https://i0.wp.com/global.ac.id/wp-content/uploads/2024/03/7197e626-90b8-4092-a892-d748d945969f.jpeg?w=1024&ssl=1"
                   alt="Sistem Informasi"
                   className="w-full h-auto rounded-lg"
+                  height={300}
+                  width={500}
                 />
               </div>
               <div
@@ -156,8 +161,10 @@ export default function Home() {
                 data-aos-easing="ease-in-out"
                 data-aos-delay="50"
               >
-                <img
-                  src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <Image
+                  height={500}
+                  width={300}
+                  src="https://i0.wp.com/global.ac.id/wp-content/uploads/2024/03/7a97ecd2-5023-40aa-96d5-3c1690cd79e1.jpeg?w=1024&ssl=1"
                   alt="Film, TV & Media"
                   className="w-full h-auto rounded-lg"
                 />

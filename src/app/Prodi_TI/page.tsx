@@ -223,44 +223,7 @@ export default function Page() {
               </tr>
             </tbody>
           </table>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
-          <img
-            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Gambar FTI 1"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-right"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Gambar FTI 2"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up"
-          />
-          <img
-            src="https://plus.unsplash.com/premium_photo-1661727547850-3d7c020a64a8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Gambar FTI 3"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-left"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Gambar FTI 4"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-right"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
-            alt="Gambar FTI 5"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1503437313881-503a91226402?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Gambar FTI 6"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-left"
-          />
+          <div className="flex-1 mb-20"></div>
         </div>
       </div>
     </>

@@ -146,32 +146,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
-          <img
-            src="https://images.pexels.com/photos/1579251/pexels-photo-1579251.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
-            alt="Gambar FTI 1"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-right"
-          />
-          <img
-            src="https://images.pexels.com/photos/164906/pexels-photo-164906.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
-            alt="Gambar FTI 2"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up"
-          />
-          <img
-            src="https://images.pexels.com/photos/256250/pexels-photo-256250.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
-            alt="Gambar FTI 3"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-left"
-          />
-          <img
-            src="https://images.pexels.com/photos/768218/pexels-photo-768218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
-            alt="Gambar FTI 6"
-            className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
-            data-aos="fade-up-left"
-          />
-        </div>
+        <div className="flex-1 mb-20"></div>
       </div>
     </>
   );

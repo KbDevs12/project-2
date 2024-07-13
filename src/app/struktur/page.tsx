@@ -20,10 +20,10 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 px-4 items-center justify-center pt-10 pb-4">
-        <Image src={"/struktur.svg"} height={500} width={500} alt="" />
+      <div className="flex flex-col gap-4 px-4 items-center justify-center pt-10 pb-20">
+        <Image src={"/struktur.svg"} height={1000} width={1000} alt="" />
         <p className="text-2xl font-semibold">Struktur Organisasi FTIK</p>
-        <div className="bg-gray-400 flex flex-col w-1/2 gap-2 px-2">
+        <div className="bg-gray-400 flex flex-col w-full gap-2 px-2">
           <p className="font-semibold text-lg pt-5">Dekan FTIK :</p>
           <p>Rahmat Tullah, M.Kom</p>
           <p className="font-semibold text-lg pt-5">Sekretaris Fakultas :</p>
